@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
+        <module name="provider-8001" />
         <module name="provider8001" />
       </profile>
     </annotationProcessing>
