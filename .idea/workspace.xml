@@ -2,17 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="747b87c8-5033-4230-92b8-34a394d0e041" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/common/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/common/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/common/HttpResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/config/ExecutorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/OptionFundingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/entity/OptionFunding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/repository/OptionFundingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/OptionFundingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/test/java/com/lxf/provider8002/SampleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/CodeGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/dao/DeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/providerApplication_8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/providerApplication_8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider-8001/src/test/java/com/lxf/test/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/test/java/com/lxf/test/SampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/CodeGenerator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/CodeGenerator$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/CodeGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/dao/DeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/providerApplication_8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/providerApplication_8001.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider-8001/target/test-classes/com/lxf/test/SampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/test-classes/com/lxf/test/SampleTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,19 +69,23 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\work\code\soa\provider-8001\src\main\resources\mapper" />
-      <recent name="D:\work\code\soa\provider-8001\src\main\resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.lxf" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lxf" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\work\allproject\soa\provider-8001\src\main\resources" />
       <recent name="D:\work\allproject\soa\common\src\main\java\com\lxf\common\entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lxf.repository" />
+      <recent name="com.lxf.service" />
+      <recent name="com.lxf.provider8002" />
+      <recent name="com.lxf.entity" />
+      <recent name="com.lxf.enums" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\code\soa\provider-8001\src\main\resources\mapper" />
+      <recent name="D:\work\code\soa\provider-8001\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -94,7 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Provider8002Application">
+  <component name="RunManager" selected="Spring Boot.providerApplication_8001">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lxf.CodeGenerator" />
       <module name="provider-8001" />
@@ -204,9 +215,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.providerApplication_8001" />
         <item itemvalue="JUnit.SampleTest.testGenerator" />
         <item itemvalue="Application.CodeGenerator" />
-        <item itemvalue="Spring Boot.providerApplication_8001" />
         <item itemvalue="Spring Boot.providerApplication_8001 (1)" />
         <item itemvalue="JUnit.SampleTest.testSelect" />
       </list>
@@ -219,12 +230,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@fc774f7d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e2877428" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@fc774f7d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@210d045e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e2877428" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@dafa96dd" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -259,6 +270,9 @@
       <workItem from="1576115999645" duration="2901000" />
       <workItem from="1576198760614" duration="592000" />
       <workItem from="1576200368556" duration="4947000" />
+      <workItem from="1576458582567" duration="529000" />
+      <workItem from="1576564108073" duration="1548000" />
+      <workItem from="1577156461823" duration="11170000" />
     </task>
     <task id="LOCAL-00001" summary="1.提交mybatieplus冲突导致springboot的ioc异常问题">
       <created>1576026386871</created>

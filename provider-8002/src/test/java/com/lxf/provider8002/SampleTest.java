@@ -1,4 +1,4 @@
-package com.lxf.test;
+package com.lxf.provider8002;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
