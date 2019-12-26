@@ -21,10 +21,10 @@ public class SwaggerConfig {
                 .apis(RequestHandlerSelectors.basePackage("com.lxf"))
                 .paths(PathSelectors.any())
                 .build().apiInfo(new ApiInfoBuilder()
-                        .title("李雪峰自定API手册")
+                        .title("tcmart自定API手册")
                         .description("系统将采用springcloud分布式soa架构")
                         .version("1.0")
-                        .contact(new Contact("李雪峰自定义系统","XXXXX","1203496509@qq.com"))
+                        .contact(new Contact("tcmart定义系统","XXXXX","1203496509@qq.com"))
                         .license("The Apache License")
                         .licenseUrl("http://www.baidu.com")
                         .build());
