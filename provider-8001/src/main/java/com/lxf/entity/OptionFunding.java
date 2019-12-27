@@ -48,7 +48,4 @@ public class OptionFunding extends BaseEntity {
 
   @Column(columnDefinition = "char(32) COMMENT '股权代码'", nullable = false)
   private String stockCode;
-
-  @Column(columnDefinition = "varchar(50) COMMENT '关联众筹'", nullable = false)
-  private Long crowdFundingId;
 }

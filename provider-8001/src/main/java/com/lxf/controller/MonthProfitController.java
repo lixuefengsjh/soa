@@ -11,14 +11,15 @@ import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.data.domain.Sort;
+import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
+
 /**
  * @author Administrator
  */
@@ -76,10 +77,6 @@ public class MonthProfitController {
 
     /**
      * 修改销售额
-     * @param stockCode 股权代码
-     * @param salesAmount 销售额
-     * @param percentage 百分数
-     * @param recordTime 月度
      * @return
      */
     @ApiOperation(value = "修改销售额")
@@ -90,5 +87,15 @@ public class MonthProfitController {
         monthProfit.setRecordTime(LocalDate.parse(monthProfitVo.getRecordTime(),DateTimeFormatter.ofPattern("yyyy-MM")));
         monthProfitService.updateMonthProfit(monthProfit);
         return HttpResult.success();
+    }
+    @ApiOperation("测试排序查询")
+    @GetMapping("/sort")
+    public  HttpResult<List<MonthProfitVo>>  sort(){
+       return   HttpResult.success(monthProfitService.sort());
+    }
+    @ApiOperation("测试排序多条件排序")
+    @GetMapping("/sort/{stockCode}")
+    public  HttpResult<List<MonthProfitVo>>  findByStockCodeBySort(@PathVariable String stockCode){
+        return   HttpResult.success(monthProfitService.findByStockCodeBySort(stockCode));
     }
 }

@@ -2,6 +2,7 @@ package com.lxf.enums;
 
 import lombok.Getter;
 
+
 /**
  * 用户
  * @author lxf
@@ -45,4 +46,3 @@ public enum OptionEnum {
         return OptionEnums;
     }
 }
-

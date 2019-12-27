@@ -1,18 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="747b87c8-5033-4230-92b8-34a394d0e041" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/common/TcmartErrorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/MonthProfitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/entity/MonthProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/repository/MonthProfitRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/MonthProfitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/util/CommonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/vo/MonthProfitVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-8001/src/test/java/com/lxf/test/CommenTest.java" afterDir="false" />
+    <list default="true" id="b3391d57-32b9-4995-96df-e90c27dda593" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;provider-8001/src/main/java/com/lxf/enums/OptionEnum.java&#10;#&#9;provider-8001/target/classes/com/lxf/config/ExecutorConfig.class&#10;#&#9;provider-8001/target/classes/com/lxf/config/SwaggerConfig.class&#10;#&#9;provider-8001/target/classes/com/lxf/controller/OptionFundingController.class&#10;#&#9;provider-8001/target/classes/com/lxf/entity/OptionFunding.class&#10;#&#9;provider-8001/target/classes/com/lxf/enums/OptionEnum.class&#10;#&#9;provider-8001/target/classes/com/lxf/repository/OptionFundingRepository.class&#10;#&#9;provider-8001/target/classes/com/lxf/service/OptionFundingService.class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/config/ExecutorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/config/ExecutorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/MonthProfitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/MonthProfitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/entity/OptionFunding.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/entity/OptionFunding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/enums/OptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/enums/OptionEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/providerApplication_8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/providerApplication_8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/repository/MonthProfitRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/repository/MonthProfitRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/repository/OptionFundingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/repository/OptionFundingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/MonthProfitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/MonthProfitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/OptionFundingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/OptionFundingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/test/java/com/lxf/test/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/test/java/com/lxf/test/SampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/META-INF/provider-8001.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/config/ExecutorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/config/ExecutorConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/config/SwaggerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/controller/MonthProfitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/controller/MonthProfitController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/controller/OptionFundingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/controller/OptionFundingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/entity/OptionFunding.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/entity/OptionFunding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/enums/OptionEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/enums/OptionEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/providerApplication_8001$OptionFunding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/providerApplication_8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/providerApplication_8001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/repository/MonthProfitRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/repository/MonthProfitRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/repository/OptionFundingRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/repository/OptionFundingRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/service/MonthProfitService.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/service/MonthProfitService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/service/OptionFundingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/service/OptionFundingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/test-classes/META-INF/provider-8001.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/test-classes/com/lxf/test/SampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/test-classes/com/lxf/test/SampleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soa.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,72 +39,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="package-info" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-        <option name="userSettingsFile" value="D:\work\ideaIU\IntelliJ IDEA 2019.2.4\plugins\maven\lib\maven3\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1Uc1VfB3aGNZ3C8RfILsOvpfeVX" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yex-server" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\work\code\soa\provider-8001\src\main\resources\mapper" />
-      <recent name="D:\work\code\soa\provider-8001\src\main\resources" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.lxf" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.lxf.repository" />
-      <recent name="com.lxf.service" />
-      <recent name="com.lxf.entity" />
-      <recent name="com.lxf.vo" />
-      <recent name="com.lxf.controller" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work\allproject\soa\provider-8001\src\main\resources" />
-      <recent name="D:\work\allproject\soa\common\src\main\java\com\lxf\common\entity" />
-    </key>
   </component>
   <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -97,70 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.providerApplication_8001">
-    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lxf.CodeGenerator" />
-      <module name="provider-8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lxf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommenTest.runTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="provider-8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lxf.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lxf.test" />
-      <option name="MAIN_CLASS_NAME" value="com.lxf.test.CommenTest" />
-      <option name="METHOD_NAME" value="runTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommenTest.runTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="provider-8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lxf.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lxf.test" />
-      <option name="MAIN_CLASS_NAME" value="com.lxf.test.CommenTest" />
-      <option name="METHOD_NAME" value="runTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SampleTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="provider-8001" />
-      <option name="PACKAGE_NAME" value="com.lxf.test" />
-      <option name="MAIN_CLASS_NAME" value="com.lxf.test.SampleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="provider-8001" />
-      <option name="PACKAGE_NAME" value="com.lxf" />
-      <option name="MAIN_CLASS_NAME" value="com.lxf.SampleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SampleTest.testGenerator">
     <configuration name="SampleTest.testGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="provider-8001" />
       <extension name="coverage">
@@ -172,16 +71,6 @@
       <option name="PACKAGE_NAME" value="com.lxf.test" />
       <option name="MAIN_CLASS_NAME" value="com.lxf.test.SampleTest" />
       <option name="METHOD_NAME" value="testGenerator" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SampleTest.testSelect" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="provider-8001" />
-      <option name="PACKAGE_NAME" value="com.lxf" />
-      <option name="MAIN_CLASS_NAME" value="com.lxf.SampleTest" />
-      <option name="METHOD_NAME" value="testSelect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -205,7 +94,7 @@
       <module name="provider-8001" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lxf.test.*" />
+          <option name="PATTERN" value="com.lxf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,86 +105,23 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.providerApplication_8001" />
-        <item itemvalue="JUnit.CommenTest.runTest" />
-        <item itemvalue="JUnit.CommenTest.runTest1" />
         <item itemvalue="JUnit.SampleTest.testGenerator" />
-        <item itemvalue="Application.CodeGenerator" />
+        <item itemvalue="Spring Boot.providerApplication_8001" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <option name="contentProportion" value="0.08928572" />
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@16845bcf" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@16845bcf" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@cba68b40" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@16845bcf" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1b754555" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
-  </component>
-  <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="747b87c8-5033-4230-92b8-34a394d0e041" name="Default Changelist" comment="" />
-      <created>1575641094282</created>
+      <changelist id="b3391d57-32b9-4995-96df-e90c27dda593" name="Default Changelist" comment="" />
+      <created>1577409245907</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1575641094282</updated>
-      <workItem from="1575641100184" duration="6487000" />
-      <workItem from="1575816772931" duration="2261000" />
-      <workItem from="1575896210763" duration="806000" />
-      <workItem from="1575897580551" duration="2813000" />
-      <workItem from="1575900746927" duration="1835000" />
-      <workItem from="1575933837958" duration="217000" />
-      <workItem from="1575939649696" duration="3441000" />
-      <workItem from="1575943144429" duration="5920000" />
-      <workItem from="1575954752862" duration="4579000" />
-      <workItem from="1576025934909" duration="3541000" />
-      <workItem from="1576112281035" duration="595000" />
-      <workItem from="1576115999645" duration="2901000" />
-      <workItem from="1576198760614" duration="592000" />
-      <workItem from="1576200368556" duration="4947000" />
-      <workItem from="1576458582567" duration="529000" />
-      <workItem from="1576564108073" duration="1548000" />
-      <workItem from="1577156461823" duration="11170000" />
+      <updated>1577409245907</updated>
+      <workItem from="1577409248254" duration="17990000" />
     </task>
-    <task id="LOCAL-00001" summary="1.提交mybatieplus冲突导致springboot的ioc异常问题">
-      <created>1576026386871</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1576026386871</updated>
-    </task>
-    <task id="LOCAL-00002" summary="1.提交mybatieplus冲突导致springboot的ioc异常问题">
-      <created>1577330995365</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1577330995366</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,38 +132,42 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.提交mybatieplus冲突导致springboot的ioc异常问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.提交mybatieplus冲突导致springboot的ioc异常问题" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/MonthProfitController.java</url>
-          <line>86</line>
-          <properties class="com.lxf.controller.MonthProfitController" method="updateMonthProfit">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="11" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/MonthProfitService.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/MonthProfitController.java</url>
-          <line>91</line>
-          <option name="timeStamp" value="12" />
+          <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/MonthProfitService.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/repository/MonthProfitRepository.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/repository/MonthProfitRepository.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/repository/MonthProfitRepository.java</url>
+          <line>54</line>
+          <properties class="com.lxf.repository.MonthProfitRepository" method="findByAndSort" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/soa$SampleTest.ic" NAME="SampleTest Coverage Results" MODIFIED="1575902894635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

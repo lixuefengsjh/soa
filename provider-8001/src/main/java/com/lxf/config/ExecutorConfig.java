@@ -2,11 +2,13 @@ package com.lxf.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
 import java.util.concurrent.ThreadPoolExecutor;
 
 @Configuration
+@EnableAsync
 public class ExecutorConfig {
     @Bean
     public ThreadPoolTaskExecutor  defaultThreadPool(){
@@ -23,7 +25,7 @@ public class ExecutorConfig {
         // CALLER_RUNS：不在新线程中执行任务，而是有调用者所在的线程来执行
         threadPools.setRejectedExecutionHandler(new ThreadPoolExecutor.CallerRunsPolicy());
         //执行初始化暂时不执行初始化工作
-       // threadPools.initialize();
+       threadPools.initialize();
         return  threadPools;
     }
 }
