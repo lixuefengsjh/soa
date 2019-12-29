@@ -9,6 +9,7 @@
         <module name="common" />
         <module name="provider-8001" />
         <module name="provider8001" />
+        <module name="activeMq" />
         <module name="provider-8002" />
       </profile>
     </annotationProcessing>
