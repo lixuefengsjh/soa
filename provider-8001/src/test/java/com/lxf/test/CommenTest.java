@@ -2,6 +2,7 @@ package com.lxf.test;
 
 import org.junit.Test;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -15,16 +16,7 @@ public class CommenTest {
 
     @Test
     public void runTest1() {
-        List<Integer> lists = new ArrayList<Integer>();
-        Map<String, Integer> maps = new HashMap<>();
-        for (int i = 0; i < 5; i++) {
-            maps.put(i + "--" + i, i);
-        }
- for(Map.Entry s:maps.entrySet()){
-     System.out.println(s.getKey()+"$$"+s.getValue());
- }
-
-
-        ;
+        int  toade=LocalDate.now().minusMonths(1).lengthOfMonth();
+        System.out.println(toade);
     }
 }

@@ -2,13 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3391d57-32b9-4995-96df-e90c27dda593" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/entity/UserRoleRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/repository/UserManagerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/UserManagerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activeMq/activeMq.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/MonthProfitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/MonthProfitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/OptionFundingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/OptionFundingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/test/java/com/lxf/test/CommenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/test/java/com/lxf/test/CommenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/controller/MonthProfitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/controller/MonthProfitController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/test-classes/com/lxf/test/CommenTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/test-classes/com/lxf/test/CommenTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/test-classes/com/lxf/test/SampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/test-classes/com/lxf/test/SampleTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,6 +46,16 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/security" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\code\soa\provider-8001\src\main\java\com\lxf\controller\security" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -35,7 +69,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SampleTest.testGenerator">
+  <component name="RunManager" selected="Spring Boot.providerApplication_8001">
+    <configuration name="CommenTest.runTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="provider-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxf.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lxf.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lxf.test.CommenTest" />
+      <option name="METHOD_NAME" value="runTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SampleTest.testGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="provider-8001" />
       <extension name="coverage">
@@ -81,8 +131,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SampleTest.testGenerator" />
         <item itemvalue="Spring Boot.providerApplication_8001" />
+        <item itemvalue="JUnit.CommenTest.runTest1" />
+        <item itemvalue="JUnit.SampleTest.testGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -98,6 +149,7 @@
       <updated>1577409245907</updated>
       <workItem from="1577409248254" duration="18139000" />
       <workItem from="1577667853677" duration="589000" />
+      <workItem from="1577686614651" duration="10690000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;provider-8001/src/main/java/com/lxf/enums/OptionEnum.java&#10;#&#9;provider-8001/target/classes/com/lxf/config/ExecutorConfig.class&#10;#&#9;provider-8001/target/classes/com/lxf/config/SwaggerConfig.class&#10;#&#9;provider-8001/target/classes/com/lxf/controller/OptionFundingController.class&#10;#&#9;provider-8001/target/classes/com/lxf/entity/OptionFunding.class&#10;#&#9;provider-8001/target/classes/com/lxf/enums/OptionEnum.class&#10;#&#9;provider-8001/target/classes/com/lxf/repository/OptionFundingRepository.class&#10;#&#9;provider-8001/target/classes/com/lxf/service/OptionFundingService.class">
       <created>1577440737628</created>
@@ -152,11 +204,50 @@
           <line>55</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/MonthProfitController.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/MonthProfitController.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/MonthProfitController.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/UserManagerService.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/UserManagerService.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/repository/MonthProfitRepository.java</url>
           <line>54</line>
           <properties class="com.lxf.repository.MonthProfitRepository" method="findByAndSort" />
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/UserManagerService.java</url>
+          <line>26</line>
+          <properties class="com.lxf.service.UserManagerService" method="loadUserByUsername">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/UserManagerService.java</url>
+          <line>22</line>
+          <properties field="userManagerRepository" class="com.lxf.service.UserManagerService" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -24,6 +24,7 @@ import java.util.stream.Collectors;
  * @author Administrator
  */
 @RestController
+@RequestMapping("/monthProfit")
 @Api(tags = {"销售记录"})
 public class MonthProfitController {
     @Autowired
