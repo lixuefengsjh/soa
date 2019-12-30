@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3391d57-32b9-4995-96df-e90c27dda593" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/config/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/entity/UserRoleRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/repository/UserManagerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/UserManagerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activeMq/activeMq.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/MonthProfitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/MonthProfitController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/OptionFundingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/OptionFundingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-8001/src/test/java/com/lxf/test/CommenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/test/java/com/lxf/test/CommenTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/controller/MonthProfitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/controller/MonthProfitController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-8001/target/test-classes/com/lxf/test/CommenTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/test-classes/com/lxf/test/CommenTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-8001/target/test-classes/com/lxf/test/SampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/test-classes/com/lxf/test/SampleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/config/ExecutorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/config/ExecutorConfig.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +133,7 @@
       <updated>1577409245907</updated>
       <workItem from="1577409248254" duration="18139000" />
       <workItem from="1577667853677" duration="589000" />
-      <workItem from="1577686614651" duration="10690000" />
+      <workItem from="1577686614651" duration="10860000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;provider-8001/src/main/java/com/lxf/enums/OptionEnum.java&#10;#&#9;provider-8001/target/classes/com/lxf/config/ExecutorConfig.class&#10;#&#9;provider-8001/target/classes/com/lxf/config/SwaggerConfig.class&#10;#&#9;provider-8001/target/classes/com/lxf/controller/OptionFundingController.class&#10;#&#9;provider-8001/target/classes/com/lxf/entity/OptionFunding.class&#10;#&#9;provider-8001/target/classes/com/lxf/enums/OptionEnum.class&#10;#&#9;provider-8001/target/classes/com/lxf/repository/OptionFundingRepository.class&#10;#&#9;provider-8001/target/classes/com/lxf/service/OptionFundingService.class">
       <created>1577440737628</created>
@@ -158,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577440737628</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;provider-8001/src/main/java/com/lxf/enums/OptionEnum.java&#10;#&#9;provider-8001/target/classes/com/lxf/config/ExecutorConfig.class&#10;#&#9;provider-8001/target/classes/com/lxf/config/SwaggerConfig.class&#10;#&#9;provider-8001/target/classes/com/lxf/controller/OptionFundingController.class&#10;#&#9;provider-8001/target/classes/com/lxf/entity/OptionFunding.class&#10;#&#9;provider-8001/target/classes/com/lxf/enums/OptionEnum.class&#10;#&#9;provider-8001/target/classes/com/lxf/repository/OptionFundingRepository.class&#10;#&#9;provider-8001/target/classes/com/lxf/service/OptionFundingService.class">
+      <created>1577700304768</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577700304768</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -10,7 +10,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 @Configuration
 @EnableAsync
 public class ExecutorConfig {
-
     @Bean
     public ThreadPoolTaskExecutor  defaultThreadPool(){
         int cpu=Runtime.getRuntime().availableProcessors();
