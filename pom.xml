@@ -10,6 +10,7 @@
     <modules>
         <module>provider-8001</module>
         <module>activeMq</module>
+        <module>learn-myself</module>
     </modules>
 
 </project>

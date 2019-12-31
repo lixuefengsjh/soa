@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3391d57-32b9-4995-96df-e90c27dda593" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/config/ExecutorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/config/ExecutorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-myself/learnmyself.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-myself/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-myself/src/main/java/com/lxf/invoke/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-myself/src/main/java/com/lxf/invoke/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-myself/src/main/java/com/lxf/invoke/annoncation/AboutAnnovcation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-myself/src/main/java/com/lxf/invoke/annoncation/FieldAnnocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-myself/src/main/java/com/lxf/invoke/annoncation/MethodAnnocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-myself/src/main/java/com/lxf/invoke/annoncation/TypeAnnocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-myself/src/main/java/com/lxf/proxy/statice/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-myself/src/main/java/com/lxf/proxy/statice/MovieHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-myself/src/main/java/com/lxf/proxy/statice/RealMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-myself/src/main/java/com/lxf/proxy/statice/StaticProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/security/AboutTokenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/util/TokenProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/UserManagerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/UserManagerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/config/ExecutorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/config/ExecutorConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/config/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/config/SecurityConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/service/UserManagerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/service/UserManagerService.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,8 +34,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -28,6 +50,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/security" />
@@ -53,7 +76,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.providerApplication_8001">
+  <component name="RunManager" selected="Application.RealMovie">
+    <configuration name="AboutAnnovcation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lxf.invoke.annoncation.AboutAnnovcation" />
+      <module name="learnmyself" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxf.invoke.annoncation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RealMovie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lxf.proxy.statice.RealMovie" />
+      <module name="learnmyself" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxf.proxy.statice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lxf.invoke.TestClass" />
+      <module name="learnmyself" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxf.invoke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommenTest.runTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="provider-8001" />
       <extension name="coverage">
@@ -65,22 +127,6 @@
       <option name="PACKAGE_NAME" value="com.lxf.test" />
       <option name="MAIN_CLASS_NAME" value="com.lxf.test.CommenTest" />
       <option name="METHOD_NAME" value="runTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SampleTest.testGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="provider-8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lxf.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lxf.test" />
-      <option name="MAIN_CLASS_NAME" value="com.lxf.test.SampleTest" />
-      <option name="METHOD_NAME" value="testGenerator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,9 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RealMovie" />
+        <item itemvalue="Application.AboutAnnovcation" />
+        <item itemvalue="Application.TestClass" />
         <item itemvalue="Spring Boot.providerApplication_8001" />
         <item itemvalue="JUnit.CommenTest.runTest1" />
-        <item itemvalue="JUnit.SampleTest.testGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +181,8 @@
       <updated>1577409245907</updated>
       <workItem from="1577409248254" duration="18139000" />
       <workItem from="1577667853677" duration="589000" />
-      <workItem from="1577686614651" duration="10860000" />
+      <workItem from="1577686614651" duration="10886000" />
+      <workItem from="1577754718982" duration="22637000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;provider-8001/src/main/java/com/lxf/enums/OptionEnum.java&#10;#&#9;provider-8001/target/classes/com/lxf/config/ExecutorConfig.class&#10;#&#9;provider-8001/target/classes/com/lxf/config/SwaggerConfig.class&#10;#&#9;provider-8001/target/classes/com/lxf/controller/OptionFundingController.class&#10;#&#9;provider-8001/target/classes/com/lxf/entity/OptionFunding.class&#10;#&#9;provider-8001/target/classes/com/lxf/enums/OptionEnum.class&#10;#&#9;provider-8001/target/classes/com/lxf/repository/OptionFundingRepository.class&#10;#&#9;provider-8001/target/classes/com/lxf/service/OptionFundingService.class">
       <created>1577440737628</created>
@@ -149,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577700304768</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;provider-8001/src/main/java/com/lxf/enums/OptionEnum.java&#10;#&#9;provider-8001/target/classes/com/lxf/config/ExecutorConfig.class&#10;#&#9;provider-8001/target/classes/com/lxf/config/SwaggerConfig.class&#10;#&#9;provider-8001/target/classes/com/lxf/controller/OptionFundingController.class&#10;#&#9;provider-8001/target/classes/com/lxf/entity/OptionFunding.class&#10;#&#9;provider-8001/target/classes/com/lxf/enums/OptionEnum.class&#10;#&#9;provider-8001/target/classes/com/lxf/repository/OptionFundingRepository.class&#10;#&#9;provider-8001/target/classes/com/lxf/service/OptionFundingService.class">
+      <created>1577700323819</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577700323819</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,12 +268,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/UserManagerService.java</url>
-          <line>27</line>
+          <line>28</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/UserManagerService.java</url>
-          <line>37</line>
+          <line>38</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
@@ -228,7 +284,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/UserManagerService.java</url>
-          <line>26</line>
+          <line>27</line>
           <properties class="com.lxf.service.UserManagerService" method="loadUserByUsername">
             <option name="EMULATED" value="true" />
           </properties>
@@ -236,7 +292,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/UserManagerService.java</url>
-          <line>22</line>
+          <line>23</line>
           <properties field="userManagerRepository" class="com.lxf.service.UserManagerService" />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
