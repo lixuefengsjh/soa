@@ -20,18 +20,18 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http
-
-                .authorizeRequests()
-                .antMatchers("/product/**").hasRole("User1")
-                .antMatchers("/admin/**").hasRole("User2")
-                .anyRequest().authenticated()
-                .and()
-                .formLogin().and()
-                .httpBasic()
-                .and()
-                .sessionManagement()
-                .sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+//        http
+//
+//                .authorizeRequests()
+//                .antMatchers("/product/**").hasRole("User1")
+//                .antMatchers("/admin/**").hasRole("User2")
+//                .anyRequest().authenticated()
+//                .and()
+//                .formLogin().and()
+//                .httpBasic()
+//                .and()
+//                .sessionManagement()
+//                .sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 
 
     }
