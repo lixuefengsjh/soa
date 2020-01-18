@@ -4,6 +4,7 @@ import com.lxf.entity.User;
 import com.lxf.repository.UserManagerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -36,6 +37,8 @@ public class UserManagerService implements UserDetailsService {
         grantedAuthorities= lists.stream().map(e -> {
             return  new SimpleGrantedAuthority("ROLE_"+e.get("role_name")) ;
         }).collect(Collectors.toSet());
+        // AuthorityUtil工具类处理权限
+        //这里的user可以采用宁外一个钩爪函数，主要是判断用户是否过期等相关信息
         return new org.springframework.security.core.userdetails.User(s, new BCryptPasswordEncoder().encode(user.getPassword())
               , grantedAuthorities);
     }

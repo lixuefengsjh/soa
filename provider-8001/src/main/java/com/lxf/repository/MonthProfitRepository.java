@@ -52,5 +52,5 @@ public interface MonthProfitRepository extends JpaRepository<MonthProfit, Long> 
      * @return
      */
     @Query( value = "select stockCode,salesAmount from  MonthProfit where stockCode =?1 ")
-    List<MonthProfit> findByAndSort(String stockCode,Sort sort);
+    List<MonthProfit> findByAndSort(String stockCode, Sort sort);
 }

@@ -2,23 +2,111 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3391d57-32b9-4995-96df-e90c27dda593" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/event/EventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/event/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/event/UserRegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/event/UserRegisterEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/event/UserRegisterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/security/AuthenticationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-myself/src/main/java/com/lxf/web/MyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/config/ActiveMqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/config/RedisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/config/testSwagger/TestSwaggerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/security/handler/ImoocAuthenctiationFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/security/handler/ImoocAuthenticationSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/filter/MyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/Queue_provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/RedisMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/util/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/vo/TestSwagger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/vo/WhetherOrNotEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8001/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/common/config/JWTConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/common/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/common/util/JWTTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/common/util/ResultUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/common/util/SecurityUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/core/dao/SysMenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/core/dao/SysRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/core/dao/SysRoleMenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/core/dao/SysUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/core/dao/SysUserRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/core/entity/SysMenuEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/core/entity/SysRoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/core/entity/SysRoleMenuEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/core/entity/SysUserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/core/entity/SysUserRoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/core/service/SysMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/core/service/SysRoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/core/service/SysRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/core/service/SysUserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/core/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/core/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/core/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/core/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/core/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/core/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/security/UserAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/security/UserPermissionEvaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/security/entity/SelfUserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/security/handler/UserAuthAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/security/handler/UserAuthenticationEntryPointHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/security/handler/UserLoginFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/security/handler/UserLoginSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/security/handler/UserLogoutSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/security/jwt/JWTAuthenticationTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/security/service/SelfUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/security/sms/SmsAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/security/sms/SmsAuthenticationToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/resources/mapper/SysMenuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/resources/mapper/SysRoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/resources/mapper/SysRoleMenuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/resources/mapper/SysUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-8002/src/main/resources/mapper/SysUserRoleDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-myself/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-myself/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/security/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/event/EventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/event/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/event/UserRegisterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/event/UserRegisterEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/event/UserRegisterService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/security/AboutTokenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/security/controller/AboutTokenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/security/AdminTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/security/controller/AdminTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/security/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/security/controller/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/security/AuthenticationExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/security/ProductTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/security/controller/ProductTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/providerApplication_8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/providerApplication_8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/repository/MonthProfitRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/repository/MonthProfitRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/UserManagerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/UserManagerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/util/TokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/util/TokenProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider-8001/src/test/java/com/lxf/test/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/src/test/java/com/lxf/test/SampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/config/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/config/SecurityConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/config/SecurityConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/controller/event/EventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/controller/event/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/controller/event/UserRegisterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/controller/event/UserRegisterEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/controller/event/UserRegisterService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/controller/security/AdminTestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/controller/security/AppController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/controller/security/AuthenticationExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/controller/security/ProductTestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/controller/security/SampleAuthenticationManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/providerApplication_8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/providerApplication_8001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/service/UserManagerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/com/lxf/service/UserManagerService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider-8001/target/test-classes/com/lxf/test/SampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/test-classes/com/lxf/test/SampleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8002/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8002/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="soa" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,14 +130,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/controller/security" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/provider-8002/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\code\soa\provider-8002\src\main\resources" />
+      <recent name="D:\work\code\soa\provider-8002\src\main\java\com\lxf\provider8002" />
+      <recent name="D:\work\code\soa\provider-8001\src\main\java\com\lxf\controller\security\properties" />
+      <recent name="D:\work\code\soa\provider-8001\src\main\java\com\lxf\controller\security" />
+      <recent name="D:\work\code\soa\provider-8001" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lxf.filter" />
+      <recent name="com.lxf.service" />
+      <recent name="com.lxf.controller.security.properties" />
+      <recent name="com.lxf.controller.security" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\code\soa\provider-8001\src\main\java\com\lxf\controller\security\controller" />
       <recent name="D:\work\code\soa\provider-8001\src\main\java\com\lxf\controller\security" />
     </key>
   </component>
@@ -65,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.providerApplication_8001">
+  <component name="RunManager" selected="Spring Boot.Provider8002Application">
     <configuration name="AboutAnnovcation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lxf.invoke.annoncation.AboutAnnovcation" />
       <module name="learnmyself" />
@@ -80,11 +183,11 @@
       </method>
     </configuration>
     <configuration name="AuthenticationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lxf.controller.security.AuthenticationExample" />
+      <option name="MAIN_CLASS_NAME" value="com.lxf.controller.security.security.AuthenticationExample" />
       <module name="provider-8001" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lxf.controller.security.*" />
+          <option name="PATTERN" value="com.lxf.controller.security.security.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,15 +208,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lxf.invoke.TestClass" />
-      <module name="learnmyself" />
+    <configuration name="SampleTest.testGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="provider-8001" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lxf.invoke.*" />
+          <option name="PATTERN" value="com.lxf.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.lxf.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lxf.test.SampleTest" />
+      <option name="METHOD_NAME" value="testGenerator" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,12 +254,15 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.providerApplication_8001" />
+        <item itemvalue="JUnit.SampleTest.testGenerator" />
         <item itemvalue="Application.AuthenticationExample" />
         <item itemvalue="Application.RealMovie" />
         <item itemvalue="Application.AboutAnnovcation" />
-        <item itemvalue="Application.TestClass" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -171,7 +280,13 @@
       <workItem from="1577754718982" duration="23432000" />
       <workItem from="1577926946233" duration="13049000" />
       <workItem from="1578014154400" duration="1885000" />
-      <workItem from="1578360076182" duration="9985000" />
+      <workItem from="1578360076182" duration="25954000" />
+      <workItem from="1578618239438" duration="4526000" />
+      <workItem from="1578646879733" duration="5087000" />
+      <workItem from="1578908790371" duration="27661000" />
+      <workItem from="1579160761029" duration="3905000" />
+      <workItem from="1579243488930" duration="9737000" />
+      <workItem from="1579311420506" duration="21405000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;provider-8001/src/main/java/com/lxf/enums/OptionEnum.java&#10;#&#9;provider-8001/target/classes/com/lxf/config/ExecutorConfig.class&#10;#&#9;provider-8001/target/classes/com/lxf/config/SwaggerConfig.class&#10;#&#9;provider-8001/target/classes/com/lxf/controller/OptionFundingController.class&#10;#&#9;provider-8001/target/classes/com/lxf/entity/OptionFunding.class&#10;#&#9;provider-8001/target/classes/com/lxf/enums/OptionEnum.class&#10;#&#9;provider-8001/target/classes/com/lxf/repository/OptionFundingRepository.class&#10;#&#9;provider-8001/target/classes/com/lxf/service/OptionFundingService.class">
       <created>1577440737628</created>
@@ -201,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577785200101</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;provider-8001/src/main/java/com/lxf/enums/OptionEnum.java&#10;#&#9;provider-8001/target/classes/com/lxf/config/ExecutorConfig.class&#10;#&#9;provider-8001/target/classes/com/lxf/config/SwaggerConfig.class&#10;#&#9;provider-8001/target/classes/com/lxf/controller/OptionFundingController.class&#10;#&#9;provider-8001/target/classes/com/lxf/entity/OptionFunding.class&#10;#&#9;provider-8001/target/classes/com/lxf/enums/OptionEnum.class&#10;#&#9;provider-8001/target/classes/com/lxf/repository/OptionFundingRepository.class&#10;#&#9;provider-8001/target/classes/com/lxf/service/OptionFundingService.class">
+      <created>1578463838687</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578463838688</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,34 +385,110 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/UserManagerService.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="14" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/org/springframework/security/access/expression/SecurityExpressionRoot.class</url>
+          <line>59</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/UserManagerService.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="15" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/org/springframework/security/access/expression/SecurityExpressionRoot.class</url>
+          <line>65</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar!/org/springframework/security/web/access/ExceptionTranslationFilter.class</url>
+          <line>59</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar!/org/springframework/security/web/access/ExceptionTranslationFilter.class</url>
+          <line>74</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class</url>
+          <line>30</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class</url>
+          <line>45</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar!/org/springframework/security/web/access/intercept/FilterSecurityInterceptor.class</url>
+          <line>34</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar!/org/springframework/security/web/access/intercept/FilterSecurityInterceptor.class</url>
+          <line>67</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class</url>
+          <line>56</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class</url>
+          <line>64</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class</url>
+          <line>52</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class</url>
+          <line>78</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.class</url>
+          <line>34</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/security/jwt/JWTAuthenticationTokenFilter.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.class</url>
+          <line>74</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar!/org/springframework/security/web/authentication/www/BasicAuthenticationFilter.class</url>
+          <line>57</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar!/org/springframework/security/web/authentication/www/BasicAuthenticationFilter.class</url>
+          <line>91</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class</url>
+          <line>74</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/controller/AdminController.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider-8002/src/main/java/com/lxf/provider8002/controller/AdminController.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/repository/MonthProfitRepository.java</url>
           <line>54</line>
           <properties class="com.lxf.repository.MonthProfitRepository" method="findByAndSort" />
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/UserManagerService.java</url>
-          <line>27</line>
-          <properties class="com.lxf.service.UserManagerService" method="loadUserByUsername">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/provider-8001/src/main/java/com/lxf/service/UserManagerService.java</url>
-          <line>23</line>
-          <properties field="userManagerRepository" class="com.lxf.service.UserManagerService" />
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
