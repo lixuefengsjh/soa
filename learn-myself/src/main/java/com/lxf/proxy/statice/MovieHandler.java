@@ -11,6 +11,7 @@ public class MovieHandler implements InvocationHandler {
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
        if(method.getName().equals("say")){
            System.out.println("利用动态代理的方式测试say()");
+           System.out.println(proxy.getClass().toString());
             method.invoke(movie,args);
        }else{
            method.invoke(movie,args);

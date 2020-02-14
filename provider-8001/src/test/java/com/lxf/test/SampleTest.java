@@ -1,34 +1,52 @@
 package com.lxf.test;
 
-import com.lxf.entity.OptionFunding;
-import com.lxf.service.OptionFundingService;
-import com.lxf.service.Queue_provider;
-import com.lxf.util.RedisUtil;
-import org.junit.Before;
+import com.lxf.entity.relation.Certification;
+import com.lxf.entity.relation.School;
+import com.lxf.entity.relation.Student;
+import com.lxf.repository.CertificationRepository;
+import com.lxf.repository.SchoolRepository;
+import com.lxf.repository.StudentRepository;
+import jdk.nashorn.internal.runtime.options.Option;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.MockMvcBuilder;
-import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
-import org.springframework.test.web.servlet.setup.MockMvcBuilders;
-import org.springframework.web.context.WebApplicationContext;
-
-import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class SampleTest {
     @Autowired
-    private RedisUtil redisUtil;
+    private StudentRepository studentRepository;
+    @Autowired
+    private SchoolRepository schoolRepository;
+//    @Autowired
+//    private CertificationRepository certificationRepository;
 
     @Test
     public void testGenerator(){
-        redisUtil.set("lxf3434","ces121212",10);
+        Student s=null;
+
+//        Student s=new Student();
+//        s.setName("李雪峰");
+//        School school1 =new School();
+//        School school2 =new School();
+//        school1.setSchoolName("丹江一中");
+//        school2.setSchoolName("丹江二中");
+//
+//
+//        s.setSchool(school1);
+//        studentRepository.save(s);
+//        schoolRepository.save(school1);
+
+
+//        Certification certification =new  Certification();
+//        certification.setCertificationNo("2--420381111212");
+//        s.setCertification(certification);
+//        Certification certification =new  Certification();
+//        certification.setId(3L);
+//        System.out.println(studentRepository.existsByCrId(3L));
+
 
     }
 

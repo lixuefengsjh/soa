@@ -1,5 +1,7 @@
 package com.lxf.proxy.statice;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
@@ -18,7 +20,9 @@ public class RealMovie implements Movie {
         this.name = name;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+       //InputStream s
+
         Movie aFanDa = new RealMovie("阿凡达");
         /**
          * 一下代码展示的是静态代理
@@ -31,5 +35,8 @@ public class RealMovie implements Movie {
         Movie dynamicProxy= (Movie) Proxy.newProxyInstance(aFanDa.getClass().getClassLoader(),aFanDa.getClass().getInterfaces(),new MovieHandler(aFanDa));
         dynamicProxy.say();
         dynamicProxy.play();
+        System.out.println(System.getProperty("sun.boot.class.path"));
+        System.out.println(System.getProperty("java.class.path"));
+
     }
 }
